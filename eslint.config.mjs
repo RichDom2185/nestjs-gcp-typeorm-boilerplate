@@ -21,7 +21,7 @@ export default tseslint.config(
   ...tseslint.configs.recommended,
   // @ts-expect-error incompatible type definitions
   eslintPluginPrettierRecommended,
-  { ignores: ['eslint.config.js'] },
+  { ignores: ['eslint.config.mjs'] },
   {
     languageOptions: {
       parser: tseslint.parser,
